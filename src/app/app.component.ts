@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'resume-project';
+  textBox: string;
+  showValue(){
+  console.log(this.textBox);
+}
 }
